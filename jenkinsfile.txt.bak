@@ -7,11 +7,13 @@ pipeline {
                 echo 'Hello World build'
             }
         }
+         stages {
         stage('Deploy') {
             steps {
                 echo 'Hello World Deploy'
             }
         }
+         stages {
         stage('test') {
             steps {
                 echo 'Hello World test'
